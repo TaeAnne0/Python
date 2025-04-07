@@ -1,0 +1,66 @@
+Authors:  Twain Chung and Tae Anne Gottshalk
+Date Created: March 2025
+Course: ITT103
+GitHub Public URL to Code: https://github.com/TaeAnne0/Python.git
+
+Purpose of program 
+
+The T&T EXPRESS LTD Point of Sale (POS) program is designed to allow cashiers to process customer purchases efficiently and reduce manual errors. It enables cashiers to manage products, handle shopping cart operations, process payments, check out and generate receipts. Its additional features include low stock alerts, a discount system and support for multiple transactions in a single session.
+
+Product Management
+
+1. Has a predefined product catalog with pricing and stock levels.
+2. The system validates stock availability before adding items to the cart.
+
+Shopping Cart Operation
+
+1. Items can be added to the shopping cart with quantity input.
+2. Remove items from the cart.
+3. Cart contents can be viewed with the list of names, their quantities and their total price.
+
+Checkout and Payment Processing
+
+1. Calculates the subtotal, tax and applies discounts for purchases above $5000.
+2. Validates payment and calculates the change.
+3. Accepts payment input.
+4. Generates a receipt after each transaction.
+
+
+Additional functionalities
+
+1. Discount is applied automatically based on order total.
+2. Low stock alert when product quantity falls below 5.
+3. Allows multiple transactions in a single session.
+
+
+How to Run the Program 
+
+1. Ensure that Python is installed on your system and that it is added to PATH when installing.
+2. Then open the selected programming tool and open the terminal.
+3. Clone the repository from GitHub by copying and pasting the provided URL in the repository URL field.
+4. Save the project to a folder, then open it after the cloning process is complete.
+5. Run the program by clicking the play button at the top right.
+6. The output should appear in the terminal, then follow the menu prompts given to use the system.
+
+
+Required Modifications
+
+1. Allow users to search for products by name or category to help them find the items faster.
+
+2. Integrate a database for the storage of store inventory, allowing users to add, update and delete stock items even when the program is closed.
+
+3. Add a feature for user authentication for staff and admins.
+
+4. Add a sale report feature to track sale performance. 
+
+Assumptions and Limitations
+
+1. All the products are pre-defined and have fixed prices and are only stored in memory; therefore, when the program closes and reopens, the data will be lost because there is no database.
+
+2. There is no record of the sales history or transactions; once the session ends, the data is lost.
+
+3. All products are hardcoded, and there are no admin controls to manage inventory.
+
+4. There is no feature to handle returns or exchanges.
+
+5. The threshold for the discount applied is fixed.
